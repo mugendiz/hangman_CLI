@@ -1,0 +1,28 @@
+{
+  "name": "homework_9_hangman_cli",
+  "version": "1.0.0",
+  "description": "Command line hangman game that utilizes node packages `require`",
+  "main": "argv[2][3]",
+  "scripts": {
+    "test": "word"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugendiz/hangman_CLI.git"
+  },
+  "keywords": [
+    "hangman",
+    "node",
+    "game",
+    "CLI"
+  ],
+  "author": "Andrew Zoka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugendiz/hangman_CLI/issues"
+  },
+  "homepage": "https://github.com/mugendiz/hangman_CLI#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0"
+  }
+}
