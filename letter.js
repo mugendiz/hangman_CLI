@@ -11,11 +11,11 @@
 
 
 var Letter = function(underlyingCharacter, placeholder, guessedYet) {
-  this.underlyingCharacter: underlyingCharacter,
-  this.guessedYet: false,
-  this.placeholder: "_",
-  this.returnChar: returnChar();
-  this.charCheck: charCheck();
+  this.underlyingCharacter = underlyingCharacter,
+  this.guessedYet = false,
+  this.placeholder = "_",
+  this.returnChar = returnChar();
+  this.charCheck = charCheck();
 };
 
 var returnChar = function() {
@@ -25,10 +25,14 @@ var returnChar = function() {
     console.log(this.placeholder);
 };
 
-var charCheck function {
+var charCheck = function() {
   if (input === underlyingCharacter) {
     console.log(this.guessedYe.true);
   } else {
     console.log(false);
   }
 };
+
+module.exports = {
+  Letter, returnChar, charCheck
+}

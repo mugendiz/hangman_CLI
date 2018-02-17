@@ -16,7 +16,8 @@ var letter = require("./letter.js)"
   }
 }
 
-var = characterArray
+
+var = characterArray = []
 if (function() {
   for (var i = 0; i < characterArray.length; i++) {
     characterArray[i]);

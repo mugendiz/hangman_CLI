@@ -4,4 +4,4 @@
 
 * **Word.js**: Contains a constructor, Word that depends on the Letter constructor. This creates an object representing the current word the user is attempting to guess.
 
-* **index.js**: The file containing the logic for the course of the game, which depends on `Word.js` 
+* **index.js**: The file containing the logic for the course of the game, which depends on `Word.js`
